@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="407.0" prefWidth="512.0" userData="Task Details" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.ProjectDetailsViewController">
+    <children>
+        <HBox prefHeight="28.0" prefWidth="600.0">
+            <children>
+                <TextField fx:id="taskID" prefHeight="26.0" prefWidth="145.0">
+                    <HBox.margin>
+                        <Insets left="10.0" />
+                    </HBox.margin>
+                </TextField>
+                <Label text="Project Name">
+                    <font>
+                        <Font size="24.0" />
+                    </font>
+                    <HBox.margin>
+                        <Insets left="15.0" />
+                    </HBox.margin>
+                </Label>
+            </children>
+            <padding>
+                <Insets top="10.0" />
+            </padding>
+        </HBox>
+        <HBox prefHeight="11.0" prefWidth="600.0">
+            <children>
+                <TextField fx:id="labelName" prefHeight="26.0" prefWidth="145.0">
+                    <HBox.margin>
+                        <Insets left="10.0" />
+                    </HBox.margin>
+                </TextField>
+                <Label text="Project ID">
+                    <font>
+                        <Font size="24.0" />
+                    </font>
+                    <HBox.margin>
+                        <Insets left="15.0" />
+                    </HBox.margin>
+                </Label>
+            </children>
+            <padding>
+                <Insets top="10.0" />
+            </padding>
+        </HBox>
+        <HBox prefHeight="18.0" prefWidth="600.0">
+            <children>
+                <TextField fx:id="description" prefHeight="26.0" prefWidth="145.0">
+                    <HBox.margin>
+                        <Insets left="10.0" />
+                    </HBox.margin>
+                </TextField>
+                <Label text="Description">
+                    <font>
+                        <Font size="24.0" />
+                    </font>
+                    <HBox.margin>
+                        <Insets left="15.0" />
+                    </HBox.margin>
+                </Label>
+            </children>
+            <padding>
+                <Insets top="10.0" />
+            </padding>
+        </HBox>
+        <HBox prefHeight="34.0" prefWidth="434.0">
+            <children>
+                <TextField fx:id="numberOfTeamMembers" prefHeight="26.0" prefWidth="145.0">
+                    <HBox.margin>
+                        <Insets left="10.0" />
+                    </HBox.margin>
+                </TextField>
+                <Label prefHeight="70.0" prefWidth="301.0" text="Number Of Team Members">
+                    <font>
+                        <Font size="24.0" />
+                    </font>
+                    <HBox.margin>
+                        <Insets left="15.0" />
+                    </HBox.margin>
+                </Label>
+            </children>
+            <padding>
+                <Insets top="10.0" />
+            </padding>
+        </HBox>
+        <HBox prefHeight="34.0" prefWidth="434.0">
+            <children>
+                <TextField fx:id="spentHours" prefHeight="26.0" prefWidth="145.0">
+                    <HBox.margin>
+                        <Insets left="10.0" />
+                    </HBox.margin>
+                </TextField>
+                <Label prefHeight="70.0" prefWidth="301.0" text="Spent Hours">
+                    <font>
+                        <Font size="24.0" />
+                    </font>
+                    <HBox.margin>
+                        <Insets left="15.0" />
+                    </HBox.margin>
+                </Label>
+            </children>
+            <padding>
+                <Insets top="10.0" />
+            </padding>
+        </HBox>
+        <HBox prefHeight="34.0" prefWidth="434.0">
+            <children>
+                <TextField fx:id="estimatedHours" prefHeight="26.0" prefWidth="145.0">
+                    <HBox.margin>
+                        <Insets left="10.0" />
+                    </HBox.margin>
+                </TextField>
+                <Label prefHeight="70.0" prefWidth="301.0" text="Estimated Hours">
+                    <font>
+                        <Font size="24.0" />
+                    </font>
+                    <HBox.margin>
+                        <Insets left="15.0" />
+                    </HBox.margin>
+                </Label>
+            </children>
+            <padding>
+                <Insets top="10.0" />
+            </padding>
+        </HBox>
+        <HBox prefHeight="34.0" prefWidth="434.0">
+            <children>
+                <TextField fx:id="deadline" prefHeight="26.0" prefWidth="145.0">
+                    <HBox.margin>
+                        <Insets left="10.0" />
+                    </HBox.margin>
+                </TextField>
+                <Label prefHeight="70.0" prefWidth="301.0" text="Deadline">
+                    <font>
+                        <Font size="24.0" />
+                    </font>
+                    <HBox.margin>
+                        <Insets left="15.0" />
+                    </HBox.margin>
+                </Label>
+            </children>
+            <padding>
+                <Insets top="10.0" />
+            </padding>
+        </HBox>
+      <HBox layoutX="10.0" layoutY="284.0" prefHeight="34.0" prefWidth="434.0">
+         <children>
+            <TextField fx:id="deadline1" prefHeight="26.0" prefWidth="145.0">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </TextField>
+            <Label prefHeight="70.0" prefWidth="301.0" text="Status">
+               <font>
+                  <Font size="24.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="15.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+      </HBox>
+    </children>
+</VBox>
